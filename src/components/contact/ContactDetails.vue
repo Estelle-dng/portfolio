@@ -16,9 +16,11 @@ export default {
 				<li class="flex" v-for="contact in contacts" :key="contact.id">
 					<i
 						:data-feather="contact.icon"
-						class="w-5 text-gray-500 dark:text-gray-400 mr-4"
+						class="text-gray-500 dark:text-gray-400 w-5"
 					></i>
-					<a
+					{{ contact.name }}
+				
+					<!-- <a
 						href="#"
 						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
 						:class="
@@ -28,8 +30,9 @@ export default {
 						"
 						aria-label="Website and Phone"
 					>
-						{{ contact.name }}
-					</a>
+						
+					</a> -->
+					
 				</li>
 			</ul>
 		</div>

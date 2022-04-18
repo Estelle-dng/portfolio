@@ -6,13 +6,18 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'Currently in a work-study contract as a web developer at Parker&Parker for a Master 2 at the ECV Bordeaux. Previously web integrator and designer at Rhaegal.',
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'I am a hands-on person, versatile and curious about understanding web project design and processes. My licenses in application design and development as well as project management have allowed me to understand the importance of working upstream of development.',
 				},
+				{
+					id: 3,
+					bio:
+						'My skills also extend to creation and design after completing studies in graphic arts at ESMI Bordeaux.',
+				}
 			],
 		};
 	},
@@ -39,6 +44,23 @@ export default {
 			>
 				{{ bio.bio }}
 			</p>
+			<div class="flex justify-center sm:block">
+				<a
+					download="Estelle-Resume.pdf"
+					href="/files/CV-Estelle-2022.pdf"
+					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Download Resume"
+				>
+					<i
+						data-feather="arrow-down-circle"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Download CV</span
+					></a
+				>
+			</div>
 		</div>
 	</div>
 </template>

@@ -74,7 +74,7 @@ export default {
 			</div>
 
 			<!-- Single project social sharing -->
-			<div>
+			<!-- <div>
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
@@ -94,7 +94,7 @@ export default {
 						></i
 					></a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Single project right section details -->

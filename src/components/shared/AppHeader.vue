@@ -2,14 +2,14 @@
 import ThemeSwitcher from '../ThemeSwitcher';
 import HireMeModal from '../HireMeModal.vue';
 import feather from 'feather-icons';
-import AppHeaderLinks from './AppHeaderLinks.vue';
+//import AppHeaderLinks from './AppHeaderLinks.vue';
 import Button from '../reusable/Button.vue';
 
 export default {
 	components: {
 		ThemeSwitcher,
 		HireMeModal,
-		AppHeaderLinks,
+		//AppHeaderLinks,
 		Button,
 	},
 	data() {
@@ -87,14 +87,14 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
+							src="@/assets/images/logo-dark.png"
+							class="w-12"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
+							src="@/assets/images/logo-dark.png"
+							class="w-12"
 							alt="Light Logo"
 						/>
 					</router-link>
@@ -137,7 +137,7 @@ export default {
 			</div>
 
 			<!-- Header links -->
-			<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
+			<!-- <AppHeaderLinks :showModal="showModal" :isOpen="isOpen" /> -->
 
 			<!-- Header right section buttons -->
 			<div
