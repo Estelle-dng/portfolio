@@ -11,7 +11,7 @@ export default {
 	>
 		<div>
 			<img
-				:src="project.img"
+				:src="project.thumb"
 				:alt="project.title"
 				class="rounded-t-xl border-none"
 				style="max-height: 300px; overflow:hidden;width:100%; object-fit:cover; object-position:top;"

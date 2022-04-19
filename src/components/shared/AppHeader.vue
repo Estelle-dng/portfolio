@@ -108,7 +108,7 @@ export default {
 				/>
 
 				<!-- Small screen hamburger menu -->
-				<div class="sm:hidden">
+				<!-- <div class="sm:hidden">
 					<button
 						@click="isOpen = !isOpen"
 						type="button"
@@ -133,7 +133,7 @@ export default {
 							></path>
 						</svg>
 					</button>
-				</div>
+				</div> -->
 			</div>
 
 			<!-- Header links -->
