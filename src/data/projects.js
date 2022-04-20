@@ -7,7 +7,7 @@ const projects = [
 		title: 'CGLLS',
 		category: 'Website',
 		thumb: require('@/assets/images/projects/cglls-cropped.jpg'),
-		img: require('@/assets/images/projects/cglls.png'),
+		img: require('@/assets/images/projects/cglls.jpg'),
 	},
 	{
 		id: 2,
@@ -84,7 +84,7 @@ const projects = [
 		title: 'Réfectoire des cordeliers',
 		category: 'Website',
 		thumb: require('@/assets/images/projects/refectoire-cropped.jpg'),
-		img: require('@/assets/images/projects/refectoire.png'),
+		img: require('@/assets/images/projects/refectoire.jpg'),
 	},
 	{
 		id: 13,
